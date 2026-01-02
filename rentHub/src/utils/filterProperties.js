@@ -7,7 +7,7 @@
 export function filterProperties(properties = [], criteria = {}) {
     return properties.filter((property) => {
         /* -----------------------------
-         1️⃣ Type (House / Flat / Any)
+         1 Type Filter (House / Flat / Any)
         ------------------------------ */
         if (
             criteria.type &&
@@ -35,7 +35,7 @@ export function filterProperties(properties = [], criteria = {}) {
         }
 
         /* -----------------------------
-         3️⃣ Bedroom range
+         3 Bedroom range
         ------------------------------ */
         if (
             typeof criteria.minBedrooms === "number" &&
@@ -52,7 +52,7 @@ export function filterProperties(properties = [], criteria = {}) {
         }
 
         /* -----------------------------
-         4️⃣ Postcode area (case-insensitive, partial match)
+         4 Postcode area Filter
         ------------------------------ */
         if (
             criteria.postcodeArea &&
@@ -64,7 +64,7 @@ export function filterProperties(properties = [], criteria = {}) {
         }
 
         /* -----------------------------
-         5️⃣ Date added range
+         5 Date added range
         ------------------------------ */
         if (criteria.dateFrom || criteria.dateTo) {
             const propertyDate = new Date(property.added?.isoDate);
@@ -84,7 +84,7 @@ export function filterProperties(properties = [], criteria = {}) {
             }
         }
 
-        // ✅ Property passed all active filters
+
         return true;
     });
 }

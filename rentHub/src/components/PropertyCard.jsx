@@ -57,11 +57,12 @@ export default function PropertyCard({ property, onFavourite }) {
 
           {/* Details */}
           <div className="flex items-center gap-4 mb-4 text-sm text-gray-600">
-            {property.bedrooms && (
+            {property.added && (
                 <span>
-              <strong>{property.bedrooms}</strong> beds
-            </span>
+                  <strong>{property.bedrooms}</strong> beds – <em>{property.added.day}/{property.added.month}/{property.added.year}</em>
+                </span>
             )}
+
             {property.bathrooms && (
                 <span>
               <strong>{property.bathrooms}</strong> baths
