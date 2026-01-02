@@ -18,7 +18,7 @@ export function filterProperties(properties = [], criteria = {}) {
         }
 
         /* -----------------------------
-         2️⃣ Price range
+         2 Price range
         ------------------------------ */
         if (
             typeof criteria.minPrice === "number" &&
