@@ -1,0 +1,199 @@
+{
+  "properties": [
+    {
+      "id": "prop1",
+      "type": "House",
+      "bedrooms": 3,
+      "price": 750000,
+      "tenure": "Freehold",
+      "postcodeArea": "BR5",
+      "location": "Petts Wood Road, Orpington BR5",
+      "descriptionShort": "3-bed semi-detached family home",
+      "descriptionLong": "Attractive three bedroom semi-detached family home located close to Petts Wood station with excellent transport links, schools, and woodland nearby.",
+      "images": [
+        "images/prop1/1.jpeg",
+        "images/prop1/2.jpeg",
+        "images/prop1/3.jpeg",
+        "images/prop1/4.jpeg",
+        "images/prop1/5.jpeg",
+        "images/prop1/6.jpeg"
+      ],
+      "floorPlan": "/images/prop1/floorplan.jpeg",
+      "coordinates": { "lat": 51.389, "lng": 0.073 },
+      "added": {
+        "month": "October",
+        "day": 12,
+        "year": 2022,
+        "isoDate": "2022-10-12"
+      }
+    },
+
+    {
+      "id": "prop2",
+      "type": "Flat",
+      "bedrooms": 2,
+      "price": 399995,
+      "tenure": "Leasehold",
+      "postcodeArea": "BR6",
+      "location": "Crofton Road, Orpington BR6",
+      "descriptionShort": "2-bed modern garden flat",
+      "descriptionLong": "Modern two-bedroom flat with open-plan living space, bi-fold doors, and private courtyard garden.",
+      "images": [
+        "images/prop1/1.jpeg",
+        "images/prop1/2.jpeg",
+        "images/prop1/3.jpeg",
+        "images/prop1/4.jpeg",
+        "images/prop1/5.jpeg",
+        "images/prop1/6.jpeg"
+      ],
+      "floorPlan": "/images/prop1/floorplan.jpeg",
+      "coordinates": { "lat": 51.373, "lng": 0.095 },
+      "added": {
+        "month": "September",
+        "day": 14,
+        "year": 2022,
+        "isoDate": "2022-09-14"
+      }
+    },
+
+    {
+      "id": "prop3",
+      "type": "House",
+      "bedrooms": 4,
+      "price": 950000,
+      "tenure": "Freehold",
+      "postcodeArea": "NW1",
+      "location": "Camden Road, London NW1",
+      "descriptionShort": "4-bed townhouse near Camden",
+      "descriptionLong": "Spacious four-bedroom townhouse close to Camden Town with excellent amenities and transport links.",
+      "images": [
+        "images/prop1/1.jpeg",
+        "images/prop1/2.jpeg",
+        "images/prop1/3.jpeg",
+        "images/prop1/4.jpeg",
+        "images/prop1/5.jpeg",
+        "images/prop1/6.jpeg"
+      ],
+      "floorPlan": "/images/prop1/floorplan.jpeg",
+      "coordinates": { "lat": 51.539, "lng": -0.142 },
+      "added": {
+        "month": "January",
+        "day": 5,
+        "year": 2023,
+        "isoDate": "2023-01-05"
+      }
+    },
+
+    {
+      "id": "prop4",
+      "type": "Flat",
+      "bedrooms": 1,
+      "price": 275000,
+      "tenure": "Leasehold",
+      "postcodeArea": "SE1",
+      "location": "Bermondsey Street, London SE1",
+      "descriptionShort": "1-bed city flat",
+      "descriptionLong": "Compact one-bedroom flat ideal for first-time buyers in central London.",
+      "images": [
+        "images/prop1/1.jpeg",
+        "images/prop1/2.jpeg",
+        "images/prop1/3.jpeg",
+        "images/prop1/4.jpeg",
+        "images/prop1/5.jpeg",
+        "images/prop1/6.jpeg"
+      ],
+      "floorPlan": "/images/prop1/floorplan.jpeg",
+      "coordinates": { "lat": 51.503, "lng": -0.081 },
+      "added": {
+        "month": "March",
+        "day": 18,
+        "year": 2023,
+        "isoDate": "2023-03-18"
+      }
+    },
+
+    {
+      "id": "prop5",
+      "type": "House",
+      "bedrooms": 5,
+      "price": 1200000,
+      "tenure": "Freehold",
+      "postcodeArea": "SW6",
+      "location": "Fulham Road, London SW6",
+      "descriptionShort": "5-bed luxury house",
+      "descriptionLong": "Large five-bedroom detached house with garden and off-street parking.",
+      "images": [
+        "images/prop1/1.jpeg",
+        "images/prop1/2.jpeg",
+        "images/prop1/3.jpeg",
+        "images/prop1/4.jpeg",
+        "images/prop1/5.jpeg",
+        "images/prop1/6.jpeg"
+      ],
+      "floorPlan": "/images/prop1/floorplan.jpeg",
+      "coordinates": { "lat": 51.475, "lng": -0.206 },
+      "added": {
+        "month": "June",
+        "day": 9,
+        "year": 2023,
+        "isoDate": "2023-06-09"
+      }
+    },
+
+    {
+      "id": "prop6",
+      "type": "Flat",
+      "bedrooms": 3,
+      "price": 650000,
+      "tenure": "Leasehold",
+      "postcodeArea": "E14",
+      "location": "Canary Wharf, London E14",
+      "descriptionShort": "3-bed riverside flat",
+      "descriptionLong": "Modern riverside apartment with balcony and concierge service.",
+      "images": [
+        "images/prop1/1.jpeg",
+        "images/prop1/2.jpeg",
+        "images/prop1/3.jpeg",
+        "images/prop1/4.jpeg",
+        "images/prop1/5.jpeg",
+        "images/prop1/6.jpeg"
+      ],
+      "floorPlan": "/images/prop1/floorplan.jpeg",
+      "coordinates": { "lat": 51.505, "lng": -0.020 },
+      "added": {
+        "month": "August",
+        "day": 22,
+        "year": 2023,
+        "isoDate": "2023-08-22"
+      }
+    },
+
+    {
+      "id": "prop7",
+      "type": "House",
+      "bedrooms": 2,
+      "price": 480000,
+      "tenure": "Freehold",
+      "postcodeArea": "KT1",
+      "location": "Kingston Road, Kingston KT1",
+      "descriptionShort": "2-bed starter home",
+      "descriptionLong": "Ideal starter home with private garden close to Kingston town centre.",
+      "images": [
+        "images/prop1/1.jpeg",
+        "images/prop1/2.jpeg",
+        "images/prop1/3.jpeg",
+        "images/prop1/4.jpeg",
+        "images/prop1/5.jpeg",
+        "images/prop1/6.jpeg"
+      ],
+      "floorPlan": "/images/prop1/floorplan.jpeg",
+      "coordinates": { "lat": 51.412, "lng": -0.296 },
+      "added": {
+        "month": "October",
+        "day": 2,
+        "year": 2023,
+        "isoDate": "2023-10-02"
+      }
+    }
+  ]
+}
