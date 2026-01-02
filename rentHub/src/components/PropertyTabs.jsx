@@ -20,7 +20,7 @@ export default function PropertyTabs({ property }) {
         </TabList>
 
         {/* Tab panels */}
-        <TabPanel className="p-4 text-gray-700 text-sm md:text-base">
+        <TabPanel className="p-4 text-gray-700 text-sm md:text-base h-30">
           <p>{property.descriptionLong}</p>
         </TabPanel>
 

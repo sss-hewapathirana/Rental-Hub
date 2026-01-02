@@ -11,14 +11,14 @@
       "descriptionShort": "3-bed semi-detached family home",
       "descriptionLong": "Discover modern living in this stylish two-bedroom flat with a bright, open-plan layout. The living and dining areas flow seamlessly, perfect for hosting friends or enjoying quiet evenings. Bi-fold doors open onto a private courtyard garden, offering an outdoor retreat right at home. The flat is equipped with contemporary finishes and clever storage solutions throughout. Ideally located close to local shops, transport links, and amenities, this flat combines convenience with comfortable urban living.",
       "images": [
-        "images/prop1/1.jpeg",
-        "images/prop1/2.jpeg",
-        "images/prop1/3.jpeg",
-        "images/prop1/4.jpeg",
-        "images/prop1/5.jpeg",
-        "images/prop1/6.jpeg"
+        "/../images/prop1/1.jpg",
+        "/../images/prop1/2.jpg",
+        "/../images/prop1/3.jpg",
+        "/../images/prop1/4.jpg",
+        "/../images/prop1/5.jpg",
+        "/../images/prop1/6.jpg"
       ],
-      "floorPlan": "/images/prop1/floorplan.jpeg",
+      "floorPlan": "/../images/prop1/FloorPlan.PNG",
       "coordinates": { "lat": 51.389, "lng": 0.073 },
       "added": {
         "month": "October",
@@ -39,14 +39,15 @@
       "descriptionShort": "2-bed modern garden flat",
       "descriptionLong": "Discover modern living in this stylish two-bedroom flat with a bright, open-plan layout. The living and dining areas flow seamlessly, perfect for hosting friends or enjoying quiet evenings. Bi-fold doors open onto a private courtyard garden, offering an outdoor retreat right at home. The flat is equipped with contemporary finishes and clever storage solutions throughout. Ideally located close to local shops, transport links, and amenities, this flat combines convenience with comfortable urban living.",
       "images": [
-        "images/prop2/1.jpeg",
-        "images/prop2/2.jpeg",
-        "images/prop2/3.jpeg",
-        "images/prop2/4.jpeg",
-        "images/prop2/5.jpeg",
-        "images/prop2/6.jpeg"
+        "/../images/prop2/1.jpg",
+        "/../images/prop2/2.jpg",
+        "/../images/prop2/3.jpg",
+        "/../images/prop2/4.jpg",
+        "/../images/prop2/5.jpg",
+        "/../images/prop2/6.jpg",
+        "/..//../images/prop2/7.jpg"
       ],
-      "floorPlan": "/images/prop1/floorplan.jpeg",
+      "floorPlan": "/../images/prop2/FloorPlan.PNG",
       "coordinates": { "lat": 51.373, "lng": 0.095 },
       "added": {
         "month": "September",
@@ -67,14 +68,14 @@
       "descriptionShort": "4-bed townhouse near Camden",
       "descriptionLong": "Experience the perfect combination of classic charm and modern comfort in this spacious four-bedroom townhouse. Generous living spaces across multiple floors create a home designed for both family life and entertaining. The contemporary kitchen and dining area provide a central hub for gatherings and daily life. Enjoy the private garden for outdoor leisure or quiet reflection. Situated close to Camden Town, residents benefit from vibrant shopping, eateries, cultural hotspots, and excellent transport links, all just steps away.",
       "images": [
-        "images/prop3/1.jpeg",
-        "images/prop3/2.jpeg",
-        "images/prop3/3.jpeg",
-        "images/prop3/4.jpeg",
-        "images/prop3/5.jpeg",
-        "images/prop3/6.jpeg"
+        "/../images/prop3/1.jpg",
+        "/../images/prop3/2.jpg",
+        "/../images/prop3/3.jpg",
+        "/../images/prop3/4.jpg",
+        "/../images/prop3/5.jpg",
+        "/../images/prop3/6.jpg"
       ],
-      "floorPlan": "/images/prop1/floorplan.jpeg",
+      "floorPlan": "/../images/prop3/FloorPlan.PNG",
       "coordinates": { "lat": 51.539, "lng": -0.142 },
       "added": {
         "month": "January",
@@ -95,14 +96,15 @@
       "descriptionShort": "1-bed city flat",
       "descriptionLong": "Perfect for first-time buyers or city professionals, this one-bedroom flat offers smart, compact living in central London. Bright interiors and modern finishes make the space inviting and easy to maintain. A contemporary kitchen and comfortable living area provide everything needed for daily life. Located on the vibrant Bermondsey Street, enjoy nearby cafés, restaurants, and cultural attractions. With excellent transport links and proximity to London Bridge, this flat is a prime city living opportunity combining style and convenience.",
       "images": [
-        "images/prop4/1.jpeg",
-        "images/prop4/2.jpeg",
-        "images/prop4/3.jpeg",
-        "images/prop4/4.jpeg",
-        "images/prop4/5.jpeg",
-        "images/prop4/6.jpeg"
+        "/images/prop4/1.jpg",
+        "/images/prop4/2.jpg",
+        "/images/prop4/3.jpg",
+        "/images/prop4/4.jpg",
+        "/images/prop4/5.jpg",
+        "/images/prop4/6.jpg"
+
       ],
-      "floorPlan": "/images/prop1/floorplan.jpeg",
+      "floorPlan": "/../images/prop4/FloorPlan.PNG",
       "coordinates": { "lat": 51.503, "lng": -0.081 },
       "added": {
         "month": "March",
@@ -123,14 +125,14 @@
       "descriptionShort": "5-bed luxury house",
       "descriptionLong": "This exquisite five-bedroom detached house offers a luxurious lifestyle with spacious, elegant interiors. Multiple living areas and a large dining space are perfect for entertaining or family gatherings. The private garden provides an outdoor sanctuary for relaxation or play. Off-street parking adds convenience, while the high-quality finishes throughout enhance the sense of refinement. Located on Fulham Road, enjoy easy access to renowned schools, shopping, dining, and transport connections, making this home ideal for modern family living.",
       "images": [
-        "images/prop5/1.jpeg",
-        "images/prop5/2.jpeg",
-        "images/prop5/3.jpeg",
-        "images/prop5/4.jpeg",
-        "images/prop5/5.jpeg",
-        "images/prop5/6.jpeg"
+        "/../images/prop5/1.jpg",
+        "/../images/prop5/2.jpg",
+        "/../images/prop5/3.jpg",
+        "/../images/prop5/4.jpg",
+        "/../images/prop5/5.jpg",
+        "/..//..//../images/prop5/6.jpg"
       ],
-      "floorPlan": "/images/prop1/floorplan.jpeg",
+      "floorPlan": "/../images/prop5/FloorPlan.PNG",
       "coordinates": { "lat": 51.475, "lng": -0.206 },
       "added": {
         "month": "June",
@@ -151,14 +153,15 @@
       "descriptionShort": "3-bed riverside flat",
       "descriptionLong":"Enjoy stunning riverside views from this modern three-bedroom apartment in Canary Wharf. Spacious living areas with contemporary interiors create a welcoming environment for relaxing or entertaining. The private balcony offers an ideal spot to unwind while enjoying city skyline views. Residents benefit from concierge services and excellent building security. Located close to transport, shopping, and leisure facilities, this flat perfectly combines luxury, convenience, and lifestyle in one remarkable home.",
       "images": [
-        "images/prop6/1.jpeg",
-        "images/prop6/2.jpeg",
-        "images/prop6/3.jpeg",
-        "images/prop6/4.jpeg",
-        "images/prop6/5.jpeg",
-        "images/prop6/6.jpeg"
+        "/..//../images/prop6/1.jpg",
+        "/..//../images/prop6/2.jpg",
+        "/..//../images/prop6/3.jpg",
+        "/..//../images/prop6/4.jpg",
+        "/..//../images/prop6/5.jpg",
+        "/..//../images/prop6/6.jpg"
+
       ],
-      "floorPlan": "/images/prop1/floorplan.jpeg",
+      "floorPlan": "/../images/prop6/FloorPlan.PNG",
       "coordinates": { "lat": 51.505, "lng": -0.020 },
       "added": {
         "month": "August",
@@ -179,14 +182,14 @@
       "descriptionShort": "2-bed starter home",
       "descriptionLong": "This delightful two-bedroom starter home is perfect for first-time buyers or small families. The lounge and dining spaces are designed for comfort and practical living. A modern kitchen and two cozy bedrooms complete the home. Enjoy the private garden, ideal for outdoor activities or relaxing weekends. Located close to Kingston town centre, you’ll benefit from local shops, schools, and transport connections, making it a convenient and welcoming place to call home.",
       "images": [
-        "images/prop7/1.jpeg",
-        "images/prop7/2.jpeg",
-        "images/prop7/3.jpeg",
-        "images/prop7/4.jpeg",
-        "images/prop7/5.jpeg",
-        "images/prop7/6.jpeg"
+        "/../images/prop7/1.jpg",
+        "/../images/prop7/2.jpg",
+        "/../images/prop7/3.jpg",
+        "/../images/prop7/4.jpg",
+        "/../images/prop7/5.jpg",
+        "/../images/prop7/6.jpg"
       ],
-      "floorPlan": "/images/prop1/floorplan.jpeg",
+      "floorPlan": "/../images/prop7/FloorPlan.PNG",
       "coordinates": { "lat": 51.412, "lng": -0.296 },
       "added": {
         "month": "October",

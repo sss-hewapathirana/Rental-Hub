@@ -1,10 +1,24 @@
 // src/components/PropertyCard.jsx
 import { Link } from "react-router-dom";
 import { Heart, MapPin, Home } from "lucide-react";
+import { useDrag } from "react-dnd";
 
 export default function PropertyCard({ property, onFavourite }) {
+  const [{ isDragging }, drag] = useDrag(() => ({
+    type: "PROPERTY",
+    item: { property },
+    collect: (monitor) => ({
+      isDragging: !!monitor.isDragging(),
+    }),
+  }));
+
   return (
-      <div className="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300">
+      <div
+          ref={drag}
+          className={`bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300 ${
+              isDragging ? "opacity-50" : "opacity-100"
+          }`}
+      >
         {/* Image */}
         <div className="relative overflow-hidden group">
           <img
@@ -12,6 +26,7 @@ export default function PropertyCard({ property, onFavourite }) {
               alt={property.descriptionShort}
               className="w-full h-48 md:h-56 object-cover group-hover:scale-105 transition-transform duration-300"
           />
+
           <div className="absolute top-3 right-3">
             <button
                 onClick={() => onFavourite(property)}
@@ -25,7 +40,7 @@ export default function PropertyCard({ property, onFavourite }) {
 
         {/* Content */}
         <div className="p-5">
-          {/* Property Type Badge */}
+          {/* Property Type */}
           <div className="inline-flex items-center gap-1 px-2 py-1 bg-blue-50 text-blue-700 text-xs font-semibold rounded mb-3">
             <Home className="w-3 h-3" />
             {property.type}
@@ -40,28 +55,26 @@ export default function PropertyCard({ property, onFavourite }) {
             <p className="text-sm md:text-base">{property.location}</p>
           </div>
 
-          {/* Property Details */}
+          {/* Details */}
           <div className="flex items-center gap-4 mb-4 text-sm text-gray-600">
             {property.bedrooms && (
-                <span className="flex items-center gap-1">
-              <span className="font-semibold text-gray-800">{property.bedrooms}</span> beds
+                <span>
+              <strong>{property.bedrooms}</strong> beds
             </span>
             )}
             {property.bathrooms && (
-                <span className="flex items-center gap-1">
-              <span className="font-semibold text-gray-800">{property.bathrooms}</span> baths
+                <span>
+              <strong>{property.bathrooms}</strong> baths
             </span>
             )}
           </div>
 
           {/* Price */}
-          <div className="mb-4">
-            <p className="text-2xl font-bold text-gray-900">
-              £{property.price.toLocaleString()}
-            </p>
-          </div>
+          <p className="text-2xl font-bold text-gray-900 mb-4">
+            £{property.price.toLocaleString()}
+          </p>
 
-          {/* Actions */}
+          {/* Action */}
           <Link
               to={`/property/${property.id}`}
               className="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 rounded-lg font-semibold transition-colors duration-200"
