@@ -78,7 +78,7 @@ export default function PropertyCard({ property, onFavourite }) {
           {/* Action */}
           <Link
               to={`/property/${property.id}`}
-              className="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 rounded-lg font-semibold transition-colors duration-200"
+              className="block w-full text-center bg-linear-to-r from-blue-400 to-blue-900 hover:bg-blue-700 text-white px-4 py-3 rounded-lg font-semibold transition-colors duration-200 "
           >
             View Details
           </Link>
