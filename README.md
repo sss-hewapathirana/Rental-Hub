@@ -11,8 +11,8 @@ A responsive single-page application (SPA) built with React for searching and ma
 **Weighting:** 60%  
 **Due Date:** 05th January 2026
 
-**Live Demo:** [https://your-deployed-url.com](https://your-deployed-url.com)  
-**GitHub Repository:** [https://github.com/yourusername/renthub](https://github.com/yourusername/renthub)
+
+
 
 
 
@@ -135,7 +135,7 @@ renthub/
 
 ### Prerequisites
 - Node.js (v18 or higher)
-- npm or yarn
+- npm 
 
 ### Installation Steps
 
@@ -148,29 +148,24 @@ cd renthub
 2. **Install dependencies**
 ```bash
 npm install
-# or
-yarn install
-```
+
 
 3. **Run development server**
 ```bash
 npm run dev
-# or
-yarn dev
+
 ```
 
 4. **Build for production**
 ```bash
 npm run build
-# or
-yarn build
+
 ```
 
 5. **Run tests**
 ```bash
 npm test
-# or
-yarn test
+
 ```
 
 ## 🧪 Testing
@@ -213,7 +208,7 @@ The application includes 7 diverse properties in `properties.json`:
       "postcodeArea": "NW1",
       "descriptionShort": "Modern 3-bedroom house",
       "descriptionLong": "Detailed description...",
-      "images": ["/images/prop1/1.jpg", ...],
+      "images": ["/images/prop1/1.jpg"],
       "floorPlan": "/images/prop1/floorplan.jpg",
       "coordinates": { "lat": 51.5074, "lng": -0.1278 },
       "added": {
@@ -221,11 +216,10 @@ The application includes 7 diverse properties in `properties.json`:
         "month": 12,
         "year": 2025,
         "isoDate": "2025-12-15"
-      }
-    },
-    // ... 6 more properties
+      }}
+    
   ]
-}
+    }
 ```
 
 ## 🎨 Design & Aesthetics
@@ -235,17 +229,6 @@ The application includes 7 diverse properties in `properties.json`:
 - **Consistent design system** across all components
 - **Accessibility-focused** color contrast and navigation
 - **Mobile-first responsive design**
-
-### Typography
-- Primary font: System stack (sans-serif)
-- Secondary font: Monospace for technical elements
-- Consistent heading hierarchy (h1-h6)
-
-### Color Scheme
-- **Primary:** Blue (#2563eb) - for primary actions
-- **Secondary:** Gray (#6b7280) - for text and borders
-- **Accent:** Green (#10b981) - for prices and success
-- **Error:** Red (#ef4444) - for warnings and deletions
 
 ## 🔒 Security Implementation
 
@@ -287,25 +270,6 @@ The application includes 7 diverse properties in `properties.json`:
 - Thumbnail preview grid
 - Keyboard navigation support
 
-## 📈 Performance Optimizations
-
-- **Code splitting** with React.lazy()
-- **Image optimization** with responsive images
-- **Memoization** of expensive computations
-- **Debounced search** for better performance
-
-## 🌐 Deployment
-
-### GitHub Pages
-```bash
-npm run deploy
-```
-
-### Vercel/Netlify
-- Automatic deployment from GitHub
-- Environment variable configuration
-- Custom domain setup
-
 ## 📝 Coursework Requirements Met
 
 | Requirement | Implementation Status | Marks |
@@ -331,8 +295,6 @@ npm run deploy
 
 The project demonstrates incremental development through:
 - **Regular commits** with descriptive messages
-- **Feature branches** for major changes
-- **Pull requests** for code review
 - **Commit history** showing development progression
 
 ## 🚦 Running the Application
@@ -346,28 +308,14 @@ Access at: `http://localhost:5173`
 ### Production Build
 ```bash
 npm run build
-npm run preview
 ```
 
-### Linting
-```bash
-npm run lint
-```
 
 ## 📚 Documentation
 
 ### Code Comments
 - **File headers** with component descriptions
-- **Function documentation** using JSDoc
-- **Complex logic** explanations
 - **TODO/FIXME** comments for future work
-
-### API Documentation
-- Component prop interfaces
-- Function signatures
-- Data flow diagrams (included in code comments)
-
-
 
 ## 📄 License
 
@@ -383,9 +331,9 @@ This project was developed for educational purposes as part of the University of
 ## 📞 Contact
 
 For questions about this project:
-- **Student:** [Your Name]
-- **Student ID:** [Your ID]
-- **Email:** [Your Email]
+- **Student:** [S.S.S.Hewapathirana]
+- **Student ID:** [w2153380 / 20240294]
+- **Email:** [suvindu.20240294@iit.ac.lk]
 - **University:** University of Westminster
 
 ---
