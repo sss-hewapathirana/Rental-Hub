@@ -81,8 +81,7 @@
         "month": "January",
         "day": 5,
         "year": 2023,
-        "isoDate": "2023-01-05"
-      }
+        "isoDate": "2023-01-05"      }
     },
 
     {
@@ -96,12 +95,15 @@
       "descriptionShort": "1-bed city flat",
       "descriptionLong": "Perfect for first-time buyers or city professionals, this one-bedroom flat offers smart, compact living in central London. Bright interiors and modern finishes make the space inviting and easy to maintain. A contemporary kitchen and comfortable living area provide everything needed for daily life. Located on the vibrant Bermondsey Street, enjoy nearby cafés, restaurants, and cultural attractions. With excellent transport links and proximity to London Bridge, this flat is a prime city living opportunity combining style and convenience.",
       "images": [
-        "/images/prop4/1.jpg",
+        "/images/prop4/1.png",
         "/images/prop4/2.jpg",
         "/images/prop4/3.jpg",
         "/images/prop4/4.jpg",
         "/images/prop4/5.jpg",
-        "/images/prop4/6.jpg"
+        "/images/prop4/6.jpg",
+        "/images/prop4/7.jpg",
+        "/images/prop4/8.jpg",
+        "/images/prop4/9.jpg"
 
       ],
       "floorPlan": "/../images/prop4/FloorPlan.PNG",

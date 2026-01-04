@@ -35,7 +35,7 @@ export default function Footer() {
                     <ul className="flex flex-wrap justify-center items-center gap-2 text-sm">
                         <li>
                             <Link
-                                to="/sitemap"
+                                to="#"
                                 className="text-gray-600 hover:text-gray-900 transition-colors px-2"
                             >
                                 Site Map
@@ -44,7 +44,7 @@ export default function Footer() {
                         <li className="text-gray-300">•</li>
                         <li>
                             <Link
-                                to="/help"
+                                to="#"
                                 className="text-gray-600 hover:text-gray-900 transition-colors px-2"
                             >
                                 Help
@@ -53,7 +53,7 @@ export default function Footer() {
                         <li className="text-gray-300">•</li>
                         <li>
                             <Link
-                                to="/privacy"
+                                to="#"
                                 className="text-gray-600 hover:text-gray-900 transition-colors px-2"
                             >
                                 Privacy Policy
@@ -70,7 +70,7 @@ export default function Footer() {
                     <p>
                         Scraping of content is prohibited. More details{" "}
                         <Link
-                            to="/policy"
+                            to="#"
                             className="text-blue-600 hover:text-blue-800 hover:underline transition-colors"
                         >
                             here

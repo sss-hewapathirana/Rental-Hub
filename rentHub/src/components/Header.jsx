@@ -22,7 +22,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
-            <Link to="/" className="flex items-center gap-2 group">
+            <Link to="#" className="flex items-center gap-2 group">
               <img
                   src={logo}
                   alt="Logo"
@@ -47,7 +47,7 @@ export default function Navbar() {
             {/* Auth Buttons - Desktop */}
             <div className="hidden lg:flex items-center gap-3">
               <Link
-                  to="/login"
+                  to="#"
                   className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md transition-colors duration-200"
               >
                 <User className="h-4 w-4" />
@@ -55,7 +55,7 @@ export default function Navbar() {
               </Link>
 
               <Link
-                  to="/signup"
+                  to="#"
                   className="px-4 py-2 text-sm font-semibold rounded-md bg-blue-600 text-white hover:bg-blue-700 shadow-sm hover:shadow transition-all duration-200"
               >
                 Sign Up
